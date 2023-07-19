@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+    <title>Calculator</title>
+</head>
+
+<body>
+    <main>
+        <div class="container mt-5 text-center">
+            <h1>Achraf's Calculator v1 <span class="text-muted fs-5">Up and Running (Try Me)!</span></h1>
+            <div class="row w-50 m-auto">
+                <img src="./images/gif1.gif" alt="serious fighting">
+                <h2>Here's a GIF to keep things entertaining! Sorry Andy, not the coolest code to read!!</h2>
+            </div>
+            <div class="row mt-5">
+                <div class="col-3 border border-2 p-3"><input id="input1" type="number" class=""></div>
+                <div class="col-3 border border-2 p-3"><input id="input2" type="number" class=""></div>
+                <div class="col-3 border border-2 p-3">
+                    <button id="plus">+</button>
+                    <button id="minus">-</button>
+                    <button id="multiply">*</button>
+                    <button id="divide">/</button>
+                </div>
+                <div class="col-3 border border-2 p-3">
+                    <div id="result"></div>
+                </div>
+            </div>
+            
+            <h1 class="mt-5">Achraf's Calculator v2 <span class="text-muted fs-5">Coming Soon...</span></h1>
+            <div class="w-25 m-auto border border-5 text-center mt-5">
+                <div class="row myheight mx-4 mt-3">
+                    <input type="number" id="myScreen">
+                </div>
+                <div class="row my-3 px-4">
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-primary btn-lg" value="1">1</button>
+                    </div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-primary btn-lg" value="2">2</button>
+                    </div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-primary btn-lg" value="3">3</button>
+                    </div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-success btn-lg operator" value="+"
+                            id="plus">+</button></div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-primary btn-lg" value="4">4</button>
+                    </div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-primary btn-lg" value="5">5</button>
+                    </div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-primary btn-lg" value="6">6</button>
+                    </div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-danger btn-lg operator"
+                            id="minus">-</button></div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-primary btn-lg" value="7">7</button>
+                    </div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-primary btn-lg" value="8">8</button>
+                    </div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-primary btn-lg" value="9">9</button>
+                    </div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-warning btn-lg operator"
+                            id="multiply">*</button></div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-primary btn-lg" id="comma">.</button>
+                    </div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-primary btn-lg" value="0">0</button>
+                    </div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-primary btn-lg" id="equal">=</button>
+                    </div>
+                    <div class="col-3 fs-1"><button type="button" class="btn btn-info btn-lg operator"
+                            id="divide">/</button></div>
+                </div>
+                <div class="row w-75 mx-auto mt-4">
+                    <img src="./images/mrdance.gif" alt="random dude dancing">
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+    <script src="./script.js"></script>
+</body>
+
+</html>
