@@ -1,0 +1,15 @@
+div {
+    padding:50px;
+    border:1px solid black;
+    position:absolute;
+    top:40px;
+    left:500px;    
+}
+
+body{
+    background-color: #666;
+}
+
+#target{
+    background-color: blueviolet;
+}
